@@ -18,7 +18,7 @@ const btn2 = document.querySelector("#btn2")
 
 function eventoHandler(){
     document.querySelector("#info").innerHTML= "Esto es un evento con handler"
-    document.querySelector("#info").style.background = "yellow";
+    document.querySelector("#info").style.background = "black";
     document.querySelector("#info").style.color = "white";
 
 }
