@@ -1,9 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <h1>Eventos de javascript locooooo.</h1>
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 7 premo</title>
 
-    </body>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+
+        .contenedor{
+            background-color: salmon;
+            height: 50vh;
+            margin: 5%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;           
+        }
+
+        p2{
+            margin: 2%;
+            background-color: whitesmoke;
+        }
+
+        
+    </style>
+        
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Eventos de javascript locooooo.</h1>
+        <p>Tenemos tres formas de asignar eventos desde javascript.</p>
+        <button id ="btn1"onclick="eventoHTML()">HTML</button>
+        <button id="btn2" onclick="eventoListener()">Listener</button>
+        <button id="btn3" onclick="eventoHandler()">Handler</button>
+        <p2 id="info">Haz click en los botones para ver el resultado.</p2>
+        <script src="javascript.js"></script>
+
+    </div>
+</body>
 </html>
